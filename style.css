@@ -19,22 +19,22 @@ body{
     
 }
 .container{
-    background-color:rgba(0, 0, 0,0.4 );
+    background-color:rgba(0, 0, 0,0.3 );
     width: 95%;
-    height: 95vh;
-    margin:2.5% auto;
+    
+    margin:2.5rem auto;
     
    
 
 }
 
 .container-2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:auto
+    margin:auto;
     
     
 }
@@ -57,8 +57,8 @@ body{
 }
 
 .N-form{
-    border: 2px solid greenyellow;
-    margin: 2rem;
+    /* border: 2px solid greenyellow; */
+    margin: 3rem auto;
     padding: 1rem;
     width: 25%;
     display: flex;
@@ -74,5 +74,29 @@ body{
     margin-bottom: 1rem ;
 }
 
+p{
+    font-size: 1rem;
+}
 
+.submit{
+    display: flex;
+    justify-content: center;
+}
 
+.submit input{
+    width: 5rem;
+    padding: .3rem ;
+    background-color: red;
+    color: white;
+    border-radius: .7rem;
+}
+
+.submit input:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+textarea{
+    resize: none;
+}
