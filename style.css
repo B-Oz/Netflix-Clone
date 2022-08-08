@@ -12,17 +12,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: white;
     margin: auto;
     
     
 }
 .container{
-    background-color:rgba(0, 0, 0,0.5 );
-    width: 90%;
-    height: 90vh;
-    margin: auto;
+    background-color:rgba(0, 0, 0,0.4 );
+    width: 95%;
+    height: 95vh;
+    margin:2.5% auto;
+    
+   
 
 }
 
@@ -32,7 +34,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2.5rem;
+    margin:auto
+    
+    
 }
 
 .netflix{
@@ -56,12 +60,18 @@ body{
     border: 2px solid greenyellow;
     margin: 2rem;
     padding: 1rem;
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgba(0, 0, 0,0.7 );
+    font-size: 1rem;
+    
 
 
+}
+.form-values{
+    margin-bottom: 1rem ;
 }
 
 
