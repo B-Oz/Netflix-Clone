@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-2">
+        <div class="netflix">
+          <h1>NET<span>FLİX</span></h1>
+          <p>
+            Thank you for signing uo at Netflix. Tell us more about your self
+          </p>
+        </div>
+
+        <div class="N-form">
+          <form action="result.html" method="get">
+            <div class="input-box">
+              <div class="form-values">
+                <label for="name">Name</label><br />
+                <input
+                  class="box"
+                  type="text"
+                  name="username"
+                  id="name"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="form-values">
+                <label for="name">Surname</label><br />
+                <input
+                  class="box"
+                  type="text"
+                  name="username"
+                  id="name"
+                  placeholder="Enter Your Surname"
+                />
+              </div>
+
+              <div class="form-values">
+                <label for="email">Email</label><br />
+                <input
+                  class="box"
+                  type="email"
+                  name="e-mail"
+                  id="email"
+                  placeholder="Enter Your E-mail"
+                />
+              </div>
+              <div class="form-values">
+                <p>Content Type</p>
+                <select name="content-type" id="content-type">
+                  <option value="series">Series</option>
+                  <option value="netflix-original">Netflix Original</option>
+                  <option value="tv-shows">TV Shows</option>
+                  <option value="movies">Movies</option>
+                  <option value="documentaries">Documentaries</option>
+                </select>
+              </div>
+
+              <div class="form-values">
+                <p>Movie-type</p>
+                <input
+                  type="checkbox"
+                  name="movie-type"
+                  id="Comedy"
+                  value="Comedy"
+                />
+                <label for="Comedy">Comedy</label><br />
+                <input
+                  type="checkbox"
+                  name="movie-type"
+                  id="Action"
+                  value="Action"
+                />
+                <label for="Action">Action</label><br />
+                <input
+                  type="checkbox"
+                  name="movie-type"
+                  id="Romance"
+                  value="Romance"
+                />
+                <label for="Romance">Romance</label><br />
+              </div>
+
+              <div class="form-values">
+                <p>Gender</p>
+                <input type="radio" name="gender" id="Female" />
+                <label for="Female">Female</label><br />
+                <input type="radio" name="gender" id="Male" />
+                <label for="Male">Male</label><br />
+                <input type="radio" name="gender" id="Other" />
+                <label for="Other">Other</label>
+              </div>
+
+              <div class="form-values">
+                <p>Feedback</p>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  placeholder="Any Comment.."
+                  cols="30"
+                  rows="8"
+                ></textarea>
+              </div>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

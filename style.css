@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Orbitron&display=swap');
+/* font-family: 'Bowlby One SC', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url(./img/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+}
+.container{
+    background-color:rgba(0, 0, 0,0.5 )
+}
+
+.n-form{
+
+}
