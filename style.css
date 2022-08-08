@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Orbitron&display=swap');
-/* font-family: 'Bowlby One SC', cursive; */
+
 *{
     margin: 0;
     padding: 0;
@@ -14,12 +14,55 @@ body{
     background-position: center;
     background-attachment: fixed;
     color: white;
+    margin: auto;
+    
     
 }
 .container{
-    background-color:rgba(0, 0, 0,0.5 )
+    background-color:rgba(0, 0, 0,0.5 );
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+
 }
 
-.n-form{
+.container-2{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+}
+
+.netflix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.netflix h1{
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 3rem;
+}
+
+.netflix h1 span{
+    color: red;
+    font-family: 'Bowlby One SC', cursive;
+    
+}
+
+.N-form{
+    border: 2px solid greenyellow;
+    margin: 2rem;
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
+
+
+
